@@ -2,7 +2,7 @@ import React from 'react';
 
 import './GoalList.css';
 
-const GoalList = props => {
+const goalList = props => {
   return (
     <ul className='goal-list'>
       { props.goals.map(goal => {
@@ -13,4 +13,4 @@ const GoalList = props => {
 
 };
 
-export default GoalList;
+export default goalList;
